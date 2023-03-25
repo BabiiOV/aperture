@@ -349,8 +349,8 @@ background-color: #000000;
 }
 .past_clients .logos{
     justify-content: space-between;
-    display: flex;
     align-items: center;
+    display: flex;
 }
 .past_clients .logos a:hover{
     transform: scale(1.3);
