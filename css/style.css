@@ -251,7 +251,7 @@ background-color: #000000;
     color: #FFFFFF;
     margin-bottom: 15px;
 }
-.what_we_do h4{
+.what_we_do .container h4{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 23px;
@@ -320,7 +320,7 @@ background-color: #000000;
     margin-right: 6px;
     display: inline-block;
 }
-.past_clients {
+.past_clients{
     background-color: #000000;
     padding-bottom: 140px;
     padding-top: 113px;
@@ -349,6 +349,11 @@ background-color: #000000;
 }
 .past_clients .logos{
     justify-content: space-between;
-
+    display: flex;
+    align-items: center;
+}
+.past_clients .logos a:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
 }
 
