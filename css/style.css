@@ -291,6 +291,28 @@ background-color: #000000;
     text-align: left;
     margin-bottom: 20px;
 }
+.what_we_do .description h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.what_we_do .description h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 20px;
+}
 .what_we_do .description p{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
