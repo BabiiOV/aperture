@@ -425,8 +425,7 @@ background-color: #000000;
     top: 0;
 }
 .gear{
-    max-width: 600px;
-    padding: 60px 46px 40px 40px;
+    max-width: 514px;
     box-sizing: border-box;
 }
 .gear h4{
@@ -482,23 +481,22 @@ background-color: #000000;
 /*footer*/
 
 footer{
-    background: #000000;
-    border-radius: 0px;
-    padding: 100px 136px;
-    box-sizing: border-box;
+    background-color: black;
+    padding: 100px 0;
 }
 footer .container{
     max-width: 1168px;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
-footer .aperture{
-    width: 50%;
-    display: block;
-    align-items: flex-start;
+footer .container:nth-child(2){
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    padding: 40px 0;
+    margin-bottom: 56px;
 }
-footer .aperture p{
+footer .left_first p{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 13px;
@@ -506,21 +504,27 @@ footer .aperture p{
     color: #C0C0C0;
     margin-top: 20px;
 }
-footer .lists{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-footer .lists li{
+footer .left_first h4{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     color: #FFFFFF;
+}
+footer .right_first{
+    display: flex;
+}
+footer .right_first ul{
+    margin-left: 15px;
+    min-width: 220px;
+    margin-bottom: 36px;
+}
+footer .right_first li{
     margin-bottom: 10px;
 }
-footer .lists li:nth-child(1){
+footer .right_first li:first-of-type{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -529,98 +533,53 @@ footer .lists li:nth-child(1){
     text-transform: uppercase;
     color: #C0C0C0;
 }
-footer .pages{
-    margin-left: 55px;
-    margin-bottom: 26px;
-}
-footer .newsletter{
-    max-width: 50%;
-    display: block;
-}
-footer .newsletter h4{
+footer .right_first li a{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 36px;
-    margin-bottom: 20px;
+    text-decoration: none;
 }
-footer .newsletter p{
-    font-family: 'Poppins', sans-serif;
+footer form{
+    width: 100%;
+    max-width: 458px;
+    background: #F9FAFB;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 6px;
+    box-sizing: border-box;
+    height: 52px;
+}
+footer form input{
+    line-height: 52px;
+    border: none;
+    background: transparent;
+    width: 80%;
+}
+footer form button{
+    width: 63px;
+    height: 30px;
+    background: #000000;
+    border-radius: 11px;
+    border: none;
+    cursor: pointer;
+}
+footer .left_first a{
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
     color: #C0C0C0;
-    margin-bottom: 36px;
+    text-decoration: none;
 }
-footer .white_link{
-    width: 50%;
+footer .social{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-footer .white_link a{
-    background: #F9FAFB;
-    border: 1px solid #E5E7EB;
-    border-radius: 12px;
-    align-items: center;
-    display: flex;
-    justify-content: flex-end;
-    width: 458px;
-    height: 52px;
-}
-footer .white_link a:after{
-    background: #000000;
-    content: "";
-    border-radius: 11px;
-    width: 63px;
-    height: 30px;
-    margin-right: 6px;
-}
-footer .newsletter:before{
-    background: #FFFFFF;
-    border-radius: 0px;
-    content: "";
-    width: 1168px;
-    height: 2px;
-    display: inline-block;
-}
-footer .newsletter:after{
-    background: #FFFFFF;
-    border-radius: 0px;
-    content: "";
-    width: 1168px;
-    height: 2px;
-    display: inline-block;
-}
-footer .all_rights{
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
     align-items: flex-end;
 }
-.all_rights p{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #C0C0C0;
-    margin-top: 56px;
-    margin-right: 4px;
-}
-footer .social_media{
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-.social_media a{
+footer .social li{
     margin-left: 22px;
-}
-.social_media a:hover{
-    transform: scale(1.3);
-    transition: 0.3s;
 }
