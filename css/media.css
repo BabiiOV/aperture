@@ -1,0 +1,66 @@
+@media only screen and (max-width: 874px) {
+    header nav ul li{
+        margin-left: 12px;
+    }
+    .what_we_do .cards{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 874px) {
+    .tools .gear p{
+        max-width: 400px;
+    }
+}
+@media only screen and (max-width: 794px) {
+    header nav ul li a{
+        font-size: 11px;
+    }
+    header nav ul li{
+        margin-left: 8px;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .what_we_do .cards{
+        display: flex;
+        justify-content: center;
+    }
+    .tools .by_img{
+        width: 100%;
+        position: relative;
+        height: 500px;
+    }
+    .tools .gear{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 707px) {
+    header nav{
+        display: none;
+    }
+}
+@media only screen and (max-width: 429px){
+    .past_clients .logos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer .right_first{
+        display: block;
+    }
+}
+@media only screen and (max-width: 376px){
+    .past_clients .logos{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 321px){
+    .main_banner{
+        height: calc(100vh - 85px);
+    }
+    .bottom_icons{
+        flex-wrap: wrap;
+    }
+}
