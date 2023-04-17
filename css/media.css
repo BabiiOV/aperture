@@ -6,10 +6,26 @@
         display: flex;
         justify-content: center;
     }
-}
-@media only screen and (max-width: 874px) {
     .tools .gear p{
         max-width: 400px;
+    }
+    .tools .gear{
+        margin-left: 10px;
+    }
+    .past_clients .logos img:first-of-type{
+        margin-left: 10px;
+    }
+    .past_clients .logos img:last-of-type{
+        margin-right: 10px;
+    }
+    footer .container .left_first{
+        margin-left: 10px;
+    }
+    footer .container form{
+        margin-right: 10px;
+    }
+    footer .container .social{
+        margin-right: 10px;
     }
 }
 @media only screen and (max-width: 794px) {
@@ -48,12 +64,57 @@
     footer .right_first{
         display: block;
     }
+    .tools .gear{
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 415px){
+    .main_banner article p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 @media only screen and (max-width: 376px){
     .past_clients .logos{
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+    .what_we_do .container h4{
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .tools .gear p{
+        margin-right: 6px;
+    }
+}
+@media only screen and (max-width: 361px){
+    footer .right_first ul{
+        text-align: center;
+        margin-left: 0;
+    }
+    footer{
+        padding-top: 0;
+    }
+    footer .container .left_first{
+        text-align: center;
+        margin-right: 10px;
+    }
+    footer .container .right_first{
+        margin-top: 15px;
+    }
+    .sunset article{
+        margin-left: 10px;
+    }
+    .monstera article{
+        margin-left: 10px;
+    }
+    .star article{
+        margin-left: 10px;
+    }
+    footer .container:first-of-type{
+        display: block;
+        margin: auto;
     }
 }
 @media only screen and (max-width: 321px){
