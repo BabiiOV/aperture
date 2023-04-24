@@ -40,6 +40,9 @@
     }
 }
 @media only screen and (max-width: 769px) {
+    header nav ul li:last-of-type{
+        display: inherit;
+    }
     .what_we_do .cards {
         display: flex;
         justify-content: center;
@@ -78,37 +81,24 @@
     .nav__list-item{
         position: relative;
         display: block;
+        margin: auto;
         -webkit-transition-delay: 0.8s;
         transition-delay: 0.8s;
         opacity: 0;
-        text-align: center;
-        color: #fff;
         overflow: hidden;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 900;
-        line-height: 1.15;
-        letter-spacing: 3px;
         -webkit-transform: translate(100px, 0%);
         transform: translate(100px, 0%);
         -webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
         transition: opacity .2s ease, -webkit-transform .3s ease;
         transition: opacity .2s ease, transform .3s ease;
         transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
-        margin-top: 0;
-        margin-bottom: 0;
     }
     .nav__list-item a{
         position: relative;
-        text-decoration: none;
-        color: rgba(255,255,255,0.6);
         overflow: hidden;
         cursor: pointer;
-        padding-left: 5px;
-        padding-right: 5px;
-        font-weight: 900;
         z-index: 2;
         display: inline-block;
-        text-transform: uppercase;
         -webkit-transition: all 200ms linear;
         transition: all 200ms linear;
     }
